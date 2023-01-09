@@ -10,6 +10,8 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { GalerieComponent } from './galerie/galerie.component';
 import { ImgTemplateComponent } from './img-template/img-template.component' ;
 import { ImageService } from './img-template/shared/image.service';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 
@@ -26,6 +28,7 @@ import { ImageService } from './img-template/shared/image.service';
     ReactiveFormsModule,
     FontAwesomeModule,
     NgParticlesModule,
+    HttpClientModule
   ],
   providers: [ImageService],
   bootstrap: [AppComponent]

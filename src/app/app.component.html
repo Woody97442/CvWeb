@@ -44,7 +44,10 @@
         <div class="text-start text-lg-center d-flex flex-column  justify-content-start  flex-grow-1">
             <a class="navbar-brand ms-3 " href="#"><strong>&copy;</strong> E-LoGame</a>
             <ul class="navbar-nav ms-3 justify-content-center">
-                <li class="nav-item active">
+                <li class="nav-item" *ngFor="let x of tabNavFooter_Data">
+                    <a class="nav-link" href="{{x}}">{{x}}</a>
+                </li>
+                <!-- <li class="nav-item active">
                     <a class="nav-link" href="#Accueil">Accueil</a>
                 </li>
                 <li class="nav-item">
@@ -67,7 +70,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Galerie</a>
-                </li>
+                </li> -->
             </ul>
         </div>
     

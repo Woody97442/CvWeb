@@ -1,0 +1,217 @@
+{
+  "home_page":{
+    "title":"E-LoGame",
+    "catch_phrase":"Vous cherchez un développeur professionnel et fiable ? Découvrez mon profil et mes réalisations sur mon site.",
+    "btn_header_name":"Visité la Galerie photo",
+    "btn_header_link":"['/galerie']",
+    "infocv":{
+      "about_me":{
+        "name": "Brian Wood",
+        "desc": "Développeur web et mobile en formation. J'ai auparavant exercé en tant qu'auto entrepreneur dans le développement de jeux vidéo sous le nom d'E-LoGame. Passionné par le monde du développement, j'ai une véritable passion pour les jeux vidéo et suis constamment en quête de nouvelles technologies et techniques pour améliorer mes compétences et proposer des solutions innovantes à mes clients. Mon objectif est de devenir un développeur professionnel reconnu dans le domaine du jeu vidéo et de la technologie web.",
+        "avatar_url":"assets/img/LogoWoody.jpg",
+        "avatar_alt": "Photo Brian Wood"
+      },
+      "skills":{
+        "language":[
+          [
+            "Html5",
+            "faHtml5",
+            "#e34c26",
+            100
+          ],
+          [
+            "Css",
+            "faCss3",
+            "#264de4",
+            100
+          ],
+          [
+            "JavaScript",
+            "faJsSquare",
+            "#F0DB4F",
+            70
+          ],
+          [
+            "C++",
+            "cplusicon",
+            "",
+            70
+          ]
+        ],
+        "frameworks":{
+          "0":[
+            "AngularJS",
+            "faAngular",
+            "#B52E31",
+            70
+          ],
+          "1":[
+            "VueJS",
+            "faVuejs",
+            "#41b883",
+            40
+          ],
+          "2":[
+            "Bootstrap 5",
+            "faBootstrap",
+            "#563d7d",
+            90
+          ]
+        }
+      },
+      "professionnal_career":[
+        [
+          "Formation DWWM (Développeur web et web mobile)",
+          "10/2022 - En cours",
+          "Afpar",
+          "Plateau-Caillou",
+          "Formation diplomante"
+        ],
+        [
+          "Ouverture de mon entreprise en indépendant",
+          "07/2021 - En Pause",
+          "E-LoGame",
+          "La Possession",
+          "Développement de jeux vidéo et application mobile, modélisation 3d."
+        ],
+        [
+          "Traiteur En Boulangerie Pâtisserie",
+          "03/2020 - 08/2020",
+          "O' Copain",
+          "St Denis",
+          "Contrat d'apprentissage en ECM (Employé commercial en magasin)."
+        ],
+        [
+          "Caissier Pompiste",
+          "04/2018 - 04/2018",
+          "Engine",
+          "Le Tampon",
+          "CDD - Distribution de carburant aux clients après avoir noté le niveau d'approvisionnement souhaité en veillant à bien utiliser la bonne pompe, proposant ainsi un service complet et de qualité."
+        ],
+        [
+          "Caissier de Nuit",
+          "01/2015 - 10/2017",
+          "Vito terre-rouge",
+          "Saint Pierre",
+          "<br>Réponse aux demandes de renseignements des clients.<br><br> Comptage du fonds de caisse, rangement de la monnaie et des espèces pour la mise au coffre. <br><br>Traitement des anomalies : problème de lecture des codes-barres, article cassé ou impropre à la vente, erreur de prix.<br><br> Gestion des règlements clients (chèques, espèces, carte bancaire), remise des tickets de caisse.<br><br> Entretien du poste de travail, respect des règles d'hygiène et de sécurité, nettoyage du tapis roulant en cours de service si besoin.<br><br> Contrôle de la bonne tenue des présentoirs de caisse, signalement des besoins d'approvisionnement (bonbons, magazines …).<br><br> Réalisation d'inventaires, comptage des articles par référence produit, renseignement des quantités dans l'outil, remise en ordre des rayons."
+        ]
+      ],
+      "formation":[
+        [
+          "CAP : Pâtissier, 2010 – 2012",
+          "Lycée hôtelier La Renaissance",
+          "Plateaux Cailloux"
+        ]
+      ],
+      "information":{
+        "hobbies_list":[
+          "La nature",
+          "l'art",
+          "la cuisine",
+          "informatique",
+          "la famille"
+        ],
+        "language":[
+          [
+            "Français",
+            "Langue maternelle"
+          ]
+        ]
+      },
+      "achievements":[
+        [
+          "Vide",
+          "#"
+        ],
+        [
+          "Vide",
+          "#"
+        ]
+      ]
+    }
+  },
+  "galerie_page":{
+    "img":[
+      [
+        "0",
+        "",
+        "assets/img/album/0000.png"
+      ],
+      [
+        "1",
+        "",
+        "assets/img/album/0001.png"
+      ]
+    ]
+  },
+  "navigate_bar":{
+      "brand_name": "Mon CV Web",
+      "brand_link":"['']",
+      "nav_blocks":[
+        [
+          "Accueil",
+          "['']"
+        ],
+        [
+          "Biographie",
+          "#Biographie"
+        ],
+        [
+          "Compétences",
+          "#Competences"
+        ],
+        [
+          "Parcours",
+          "#Parcours"
+        ],
+        [
+          "Formations",
+          "#Formations"
+        ],
+        [
+          "Informations",
+          "#Informations"
+        ],
+        [
+          "Mes Réalisations",
+          "#MesRealisations"
+        ],
+        [
+          "Galerie",
+          "['/galerie']"
+        ]
+      ]
+    },
+  "footer":{
+    "copyrite": "E-LoGame",
+    "nav_blocks_footer":[
+      [
+          "Accueil",
+          "#top"
+        ],
+      [
+          "Biographie",
+          "#Biographie"
+        ]
+    ],
+    "contact":{
+      "location":"28 rue Leconte de lisle, 97419, La Possession",
+      "phone_number":"0692687480",
+      "mail":"Woody97442@hotmail.fr",
+      "birthday":"11/05/1995",
+      "nationality":"Française",
+      "driver_license":"Permis B",
+      "availablity":"Non disponible actuellement"
+    },
+    "social_media":{
+      "youtube":"https://www.youtube.com/channel/UCjpaTLnx_V9XolIuo79yKSw",
+      "twitter":"#",
+      "twitch":"https://www.twitch.tv/woody_game_",
+      "instagram":"https://www.instagram.com/woody_game/",
+      "facebook":"https://www.facebook.com/brian.wood.7965",
+      "github":"https://github.com/Woody97442",
+      "gitlab":"https://gitlab.com/Woody97442"
+      
+    }
+  }
+}

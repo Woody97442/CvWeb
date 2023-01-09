@@ -7,6 +7,7 @@ import {
   faVuejs,
   faBootstrap
 } from '@fortawesome/free-brands-svg-icons';
+import { HttpClient } from '@angular/common/http';
 
 
 
@@ -22,6 +23,8 @@ import {
 
 export class AccueilComponent implements OnInit{
 
+  // codeBarSaisi = new FormControl("");
+
     avatar:string =  "assets/img/LogoWoody.jpg";
     cplusicon:string =  "assets/img/c.svg";
 
@@ -33,9 +36,21 @@ export class AccueilComponent implements OnInit{
     faVuejs = faVuejs;
     faBootstrap = faBootstrap;
 
-    constructor(){
+
+
+    constructor(private http: HttpClient){
     }
 
-    ngOnInit(): void {}
+    ngOnInit(): void {
+      this.LoadDataJson();
+    }
+
+    public LoadDataJson(){
+      return this.http.get("assets/data/data.json")
+      .subscribe((data) =>{
+        let jsonObj = Object.create(data);
+
+      });
+    }
 
 }

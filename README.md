@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Further help
+
+Commande npm utiliser : 
+`npm i tsparticles`
+`npm install ng-particles tsparticles-engine` 
+`npm install @fortawesome/angular-fontawesome@0.12.x` [optional]
+`npm install @fortawesome/fontawesome-svg-core` [optional]
+`npm i @popperjs/core`   
+`npm install jquery`
+`npm install bootstrap`
+
+Commande ng utiliser :
+`ng generate component accueil` 
+`ng generate component imgTemplate`
+`ng generate component galerie`
+`ng add @fortawesome/angular-fontawesome`

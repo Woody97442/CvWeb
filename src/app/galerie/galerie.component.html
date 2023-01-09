@@ -1,0 +1,18 @@
+<div id="Accueil">
+    <header class="text-center container rounded-lg mb-0 pt-5 pb-5 d-flex flex-column justify-content-center">
+        <h1 class="display-3"> Galerie photo </h1>
+        <p> Découvrez notre galerie de réalisations en 3D pour les projets de jeux vidéo, où l'imagination n'a aucune limite et où
+        chaque détail compte pour vous plonger dans l'univers de vos rêves. </p>
+    </header>
+</div>
+
+
+<div class="container-fluid mt-5">
+
+    <ul class="container text-center">
+        <li *ngFor="let image of visibleImages">
+            <img src="{{image.url}}" alt="{{image.title}}" width="200" height="200" class="tn" title="{{image.title}}">
+        </li>
+    </ul>
+
+</div>

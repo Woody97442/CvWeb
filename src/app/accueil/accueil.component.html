@@ -1,0 +1,306 @@
+
+<div id="Accueil">
+    <header class="text-center container rounded-lg mb-0 vh-100 d-flex flex-column justify-content-center">
+        <h1 class="display-3"> E-LoGame </h1>
+        <p> Vous cherchez un développeur professionnel et fiable ? Découvrez mon profil et mes réalisations sur mon site. </p>
+        <div>
+            <a [routerLink]="['/galerie']" class="btn btn-lg btn-secondary"><i class="fas fa-arrow-up"></i> Visité la Galerie photo </a>
+        </div>
+    </header>
+</div>
+
+<div class="container-fluid">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+    
+            <div class="col-lg-9">
+                
+                <!-- Section "A propos de moi" -->
+                <div class="col d-flex my-5" id="Biographie">
+                    <div class="card shadow-sm text-dark d-flex flex-grow-1">
+                        <div class="card-body fixAfter d-flex flex-column align-items-center d-md-block flex-md-row">
+                            <img [src]=avatar alt="Avatar" class="Avatar">
+                            <h3>Brian Wood</h3>
+                            <p class="card-text" >
+                                Développeur web et mobile en formation. J'ai auparavant exercé en tant qu'auto-entrepreneur dans
+                                le développement de jeux vidéo sous le nom d'E-LoGame. 
+                                Passionné par le monde du développement, j'ai une véritable passion pour les jeux vidéo et suis
+                                constamment en quête de nouvelles technologies et techniques pour améliorer mes compétences
+                                et proposer des solutions innovantes à mes clients. 
+                                Mon objectif est de devenir un développeur professionnel reconnu dans le domaine du jeu vidéo et de la technologie web.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section "Compétences" -->
+                <div class="row flex-column flex-lg-row g-5 my-5 mb-lg-0">
+                
+                    <div class="col d-flex my-5">
+                        <div class="card shadow-sm text-dark d-flex flex-grow-1" id="Competences">
+                            <div class="card-header text-center">
+                                <h3 class="mb-3">Compétences en programation</h3>
+                            </div>
+                            <div class="card-body ">
+
+                                <div>
+                                    <h4 class="text-center">Language</h4>
+                                    <hr>
+                                    <h5 class="card-title"><fa-icon style="color: #e34c26;" [icon]="faHtml5" class="p-1"></fa-icon> Html5</h5>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+                                    <h5 class="card-title"><fa-icon style="color: #264de4;" [icon]="faCss3" class="p-1"></fa-icon> Css</h5>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+                                    
+                                    <h5 class="card-title"><fa-icon style="color: #F0DB4F;" [icon]="faJsSquare" class="p-1"></fa-icon> JavaScript</h5>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="d-flex flex-row align-items-center mb-2 ps-1">
+                                        <img [src]="cplusicon" width="20px" height="20px" alt="C++ icons">
+                                        <h5 class="card-title ms-2 mb-0">C++</h5>
+                                    </div>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div>
+                                    <h4 class="text-center">Frameworks</h4>
+                                    <hr>
+                                    <h5 class="card-title"><fa-icon style="color: #B52E31;" [icon]="faAngular" class="p-1"></fa-icon> AngularJS</h5>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+                                    <h5 class="card-title"><fa-icon style="color: #41b883;" [icon]="faVuejs" class="p-1"></fa-icon> VueJS</h5>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+                                    <h5 class="card-title"><fa-icon style="color: #563d7d;" [icon]="faBootstrap" class="p-1"></fa-icon> Bootstrap 5</h5>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section "Parcours Professionnel" -->
+                <div class="col d-flex  my-5" id="Parcours">
+                    <div class="card shadow-sm text-dark d-flex flex-grow-1">
+                        <div class="card-header text-center">
+                            <h3>Parcours Professionnel</h3>
+                        </div>
+                        <!-- Entreprise Afpar -->
+                        <div class="card-body ">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h4 class="card-title m-0">Formation DWWM (Développeur web et web mobile)</h4>
+                                <p class="text-lefth m-0 ">10/2022 - En cours</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <h5 class="card-subtitle">Entreprise: </h5>
+                                <p class="ms-2 mb-0">Afpar</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <h5 class="card-subtitle">Lieu:</h5>
+                                <p class="ms-2 mb-0">Plateau-Caillou</p>
+                            </div>
+                            <h5 class="card-subtitle">Déscription du poste:</h5>
+                            <p class="card-text">
+                                Formation diplomante
+                            </p>
+                        </div>
+                        <hr>
+                        <!-- Entreprise E-LoGame -->
+                        <div class="card-body ">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h4 class="card-title m-0">Ouverture de mon entreprise en indépendant</h4>
+                                <p class="text-lefth m-0 ">07/2021 - En Pause</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <h5 class="card-subtitle">Entreprise: </h5>
+                                <p class="ms-2 mb-0">E-LoGame</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <h5 class="card-subtitle">Lieu:</h5>
+                                <p class="ms-2 mb-0">La Possession</p>
+                            </div>
+                            <h5 class="card-subtitle">Déscription du poste:</h5>
+                            <p class="card-text">
+                                Développement de jeux vidéo et application mobile, modélisation 3d.
+                            </p>
+                        </div>
+                        <hr>
+                        <!-- Entreprise O' Copain -->
+                        <div class="card-body ">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h4 class="card-title m-0">Traiteur En Boulangerie Pâtisserie</h4>
+                                <p class="text-lefth m-0 ">03/2020 - 08/2020</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <h5 class="card-subtitle">Entreprise: </h5>
+                                <p class="ms-2 mb-0">O' Copain</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <h5 class="card-subtitle">Lieu:</h5>
+                                <p class="ms-2 mb-0">St Denis</p>
+                            </div>
+                            <h5 class="card-subtitle">Déscription du poste:</h5>
+                            <p class="card-text">
+                                Contrat d'apprentissage en ECM (Employé commercial en magasin).
+                            </p>
+                        </div>
+                        <hr>
+                        <!-- Entreprise Engine -->
+                        <div class="card-body ">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h4 class="card-title m-0">Caissier Pompiste</h4>
+                                <p class="text-lefth m-0 ">04/2018 - 04/2018</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <h5 class="card-subtitle">Entreprise: </h5>
+                                <p class="ms-2 mb-0">Engine</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <h5 class="card-subtitle">Lieu:</h5>
+                                <p class="ms-2 mb-0">Le Tampon</p>
+                            </div>
+                            <h5 class="card-subtitle">Déscription du poste:</h5>
+                            <p class="card-text">
+                                CDD - Distribution de carburant aux clients après avoir noté le niveau
+                                d'approvisionnement souhaité en veillant à bien utiliser la bonne
+                                pompe, proposant ainsi un service complet et de qualité.
+                            </p>
+                        </div>
+                        <hr>
+                        <!-- Entreprise Vito terre-rouge -->
+                        <div class="card-body ">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h4 class="card-title m-0">Caissier de Nuit</h4>
+                                <p class="text-lefth m-0 ">01/2015 - 10/2017</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <h5 class="card-subtitle">Entreprise: </h5>
+                                <p class="ms-2 mb-0">Vito terre-rouge</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <h5 class="card-subtitle">Lieu:</h5>
+                                <p class="ms-2 mb-0">Saint Pierre</p>
+                            </div>
+                            <h5 class="card-subtitle">Déscription du poste:</h5>
+                            <ul class="card-text">
+                                <li>Réponse aux demandes de renseignements des clients.
+                                Comptage du fonds de caisse, rangement de la monnaie et des espèces
+                                pour la mise au coffre.</li>
+                                <li>Traitement des anomalies : problème de lecture des codes-barres,
+                                article cassé ou impropre à la vente, erreur de prix.</li>
+                                
+                                <li>Gestion des règlements clients (chèques, espèces, carte bancaire),
+                                remise des tickets de caisse.</li>
+                                <li>Entretien du poste de travail, respect des règles d'hygiène et de
+                                sécurité, nettoyage du tapis roulant en cours de service si besoin.</li>
+                                <li>Contrôle de la bonne tenue des présentoirs de caisse, signalement des
+                                besoins d'approvisionnement (bonbons, magazines …).</li>
+                                <li>Réalisation d'inventaires, comptage des articles par référence produit,
+                                renseignement des quantités dans l'outil, remise en ordre des rayons.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section "Loisirs et Formations" -->
+                <div class="row  flex-column flex-lg-row g-5 my-5 mb-lg-0">
+                
+                    <!-- Section "Formations " -->
+                    <div class="col my-5 d-flex" id="Formations">
+                        <div class="card shadow-sm text-dark d-flex flex-grow-1">
+                            <div class="card-header text-center">
+                                <h3 class="mb-3">Formations</h3>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">CAP : Pâtissier, 2010 – 2012</h4>
+                                <h5 class="card-subtitle">Lycée hôtelier La Renaissance</h5>
+                                <p class="card-text">
+                                    <strong>Lieu: </strong> Plateaux Cailloux
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Section "Loisirs" -->
+                    <div class="col my-5 d-flex " id="Informations">
+                        <div class="card shadow-sm text-dark d-flex flex-grow-1">
+                            <div class="card-header text-center">
+                                <h3 class="mb-3">Informations</h3>
+                            </div>
+                            <div class="d-flex flex-row ">
+                                <div class="card-body">
+                                    <h5>Loisirs</h5>
+                                    <p class="card-text">
+                                    La nature <br>
+                                    l'art <br>
+                                    la cuisine <br>
+                                    informatique <br>
+                                    la famille 
+                                    </p>
+                                </div>
+                                <div class="card-body">
+                                    <h5>Langues</h5>
+                                    <strong class="card-text">Français</strong>
+                                    <p class="card-text">Langue maternelle</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <!-- Section "Mes réalisations" -->
+                <div class="col d-flex my-5 " id="MesRealisations">
+                    <div class="card shadow-sm text-dark d-flex flex-grow-1">
+                        <div class="card-header text-center">
+                            <h3>Mes réalisations</h3>
+                        </div>
+                        <!-- lien site -->
+                        <div class="card-body ">
+                            <div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <h5 class="card-subtitle">Site web: </h5>
+                                    <p class="ms-2 mb-0">Vide</p>
+                                </div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <h5 class="card-subtitle">Lien: </h5>
+                                    <a class="nav-link ms-2 text-muted" href="#">Vide</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <h5 class="card-subtitle">Site web: </h5>
+                                    <p class="ms-2 mb-0">Vide</p>
+                                </div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <h5 class="card-subtitle">Lien: </h5>
+                                    <a class="nav-link ms-2 text-muted" href="#">Vide</a>
+                                </div>
+                            </div>
+                        </div>            
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

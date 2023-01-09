@@ -1,0 +1,127 @@
+    <ng-particles [id]="id" [options]="particlesOptions" [particlesInit]="particlesInit"(particlesLoaded)="particlesLoaded()"></ng-particles>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand ms-3" [routerLink]="['']">Mon CV Web</a>
+        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-3">
+                <li class="nav-item active">
+                    <a class="nav-link" [routerLink]="['']">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Biographie">Biographie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Competences">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Parcours">Parcours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Formations">Formations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Informations">Informations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#MesRealisations">Mes Réalisations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/galerie']">Galerie</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<router-outlet></router-outlet>
+
+    <footer
+        class="navbar navbar-expand-lg navbar-dark bg-dark py-3 pt-5 justify-content-center justify-content-lg-between marginBottom">
+    
+        <div class="text-start text-lg-center d-flex flex-column  justify-content-start  flex-grow-1">
+            <a class="navbar-brand ms-3 " href="#"><strong>&copy;</strong> E-LoGame</a>
+            <ul class="navbar-nav ms-3 justify-content-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Accueil">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Biographie">Biographie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Competences">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Parcours">Parcours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Formations">Formations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Informations">Informations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#MesRealisations">Mes Réalisations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Galerie</a>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="row">
+            <div class="align-items-center px-">
+    
+                <div class="text-center">
+                    <h4>Coordonnées</h4>
+                </div>
+    
+                <hr>
+    
+                <div class="d-flex flex-column flex-lg-row ">
+                    <div class="me-4">
+                        <p><fa-icon [icon]="faLocationDot" class="p-1 "></fa-icon> 28 rue Leconte de lisle, 97419, La
+                            Possession</p>
+                        <p><fa-icon [icon]="faPhoneVolume" class="p-1 "></fa-icon> 0692687480</p>
+                        <p><fa-icon [icon]="faPaperPlane" class="p-1 "></fa-icon> Woody97442@hotmail.fr</p>
+                    </div>
+    
+                    <div>
+                        <p><fa-icon [icon]="faCakeCandles" class="p-1"></fa-icon> 11/05/1995</p>
+                        <p><fa-icon [icon]="faFlag" class="p-1"></fa-icon> Française</p>
+                        <p><fa-icon [icon]="faCarRear" class="p-1"></fa-icon> Permis B</p>
+                    </div>
+                </div>
+    
+                <div class="text-start text-lg-center">
+                    <p><fa-icon [icon]="faClock" class="p-1 "></fa-icon> Non disponible actuellement</p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    
+        <div class="col-lg-3 text-center me-3" style="font-size: 24px;">
+            <p>
+                <a href="https://www.youtube.com/channel/UCjpaTLnx_V9XolIuo79yKSw" class="mx-1 iconSocial" style="color: #c4302b; width: 16px; height: 16px;"><fa-icon
+                        [icon]="faYoutube" class="p-1"></fa-icon></a>
+                <a href="#" class="mx-1 iconSocial" style="color: #00acee; width: 16px; height: 16px;"><fa-icon
+                        [icon]="faTwitter" class="p-1"></fa-icon></a>
+                <a href="https://www.twitch.tv/woody_game_" class="mx-1 iconSocial" style="color: #6441a5; width: 16px; height: 16px;"><fa-icon
+                        [icon]="faTwitch" class="p-1"></fa-icon></a>
+                <a href="https://www.instagram.com/woody_game/" class="mx-1 iconSocial" style="color: #8a3ab9; width: 16px; height: 16px;"><fa-icon
+                        [icon]="faInstagram" class="p-1"></fa-icon></a>
+                <a href="https://www.facebook.com/brian.wood.7965" class="mx-1 iconSocial" style="color: #3b5998; width: 16px; height: 16px;"><fa-icon
+                        [icon]="faFacebook" class="p-1"></fa-icon></a>
+                <a href="https://github.com/Woody97442" class="mx-1 iconSocial" style="color: #171515; width: 16px; height: 16px;"><fa-icon
+                        [icon]="faGithub" class="p-1"></fa-icon></a>
+                <a href="https://gitlab.com/Woody97442" class="mx-1 iconSocial" style="color: #fca326; width: 16px; height: 16px;"><fa-icon
+                        [icon]="faGitlab" class="p-1 iconHover"></fa-icon></a>
+            </p>
+            <p>
+                <a href="#top" class="btn btn-sm btn-secondary"><i class="fas fa-arrow-up"></i> Retour en haut de
+                    page</a>
+            </p>
+        </div>
+    </footer>
